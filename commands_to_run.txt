@@ -1,0 +1,5 @@
+To create project
+docker-compose run app sh -c "django-admin startproject app ."
+
+to check code writting 
+docker-compose run app sh -c "flake8"
