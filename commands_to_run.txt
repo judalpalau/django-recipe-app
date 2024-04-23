@@ -3,3 +3,12 @@ docker-compose run app sh -c "django-admin startproject app ."
 
 to check code writting 
 docker-compose run app sh -c "flake8"
+
+to do Unitytest
+docker-compose run app sh -c "python manage.py test"
+
+to do Create Migtations
+docker-compose run app sh -c "python manage.py makemigrations"
+
+to do Apply Migtations
+docker-compose run app sh -c "python manage.py migrate"
