@@ -1,5 +1,6 @@
 """
-Django admin customizations"""
+Django admin customizations.
+"""
 
 
 from django.contrib import admin
@@ -45,8 +46,8 @@ class UserAdmin(BaseUserAdmin):
                 'name',
                 'is_active',
                 'is_staff',
-                'is_superuser'
-            )
+                'is_superuser',
+            ),
         }),
     )
 
